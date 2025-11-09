@@ -21,7 +21,7 @@ public class App {
                 if (regs.containsKey(chave)) {
                     double swap = regs.get(chave);
                     regs.put(chave, (valor + swap));
-                    System.out.println("entrou ein");
+
                 } else {
                     regs.put(chave, valor);
                 }
@@ -36,6 +36,5 @@ public class App {
             System.out.println(key + ": " + regs.get(key));
         }
 
-        System.out.println("Teste");
     }
 }
